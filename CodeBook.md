@@ -11,9 +11,15 @@ Finally, using the ddply function the avaerages data is calculated group by subj
 # Variables
 
 `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` has data from the downloaded files.
+
 `x_data`, `y_data` and `subject_data` merge the previous datasets to further analysis.
+
 `features` contains the names for the `x_data` dataset
+
 'meanstd_features`  is a numeric vector used to get the desired data.
+
 The same is done using the desc_activities variable. 
+
 `final_data` merges `x_data`, `y_data` and `subject_data` 
+
 `averages_data` has averages stored in a `.txt` file. `ddply()` was used apply `colMeans()`
